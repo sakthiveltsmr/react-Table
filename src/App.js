@@ -1,5 +1,6 @@
 import "./App.css";
-import FilteringTable from "./component/Filtering";
+import PaginationTable from "./component/PaginationTable";
+// import FilteringTable from "./component/Filtering";
 // import BasicTable from "./component/BasicTable";
 // import SortingTable from "./component/SortingTable";
 
@@ -8,7 +9,8 @@ function App() {
     <div>
       {/* <BasicTable /> */}
       {/* <SortingTable /> */}
-      <FilteringTable />
+      {/* <FilteringTable /> */}
+      <PaginationTable />
     </div>
   );
 }
